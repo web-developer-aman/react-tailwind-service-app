@@ -7,7 +7,7 @@ export default function Header(){
     const [toggle, setToggle] = React.useState(false);
 
     return (
-        <div className='bg-[#2699fb] p-4'>
+        <div className='bg-[#2699fb] p-4 sticky top-0 z-50'>
             <div className='max-w-[1240px] items-center flex justify-between mx-auto'>
                 <div className='text-3xl font-bold'>
                     SoftaWeb
