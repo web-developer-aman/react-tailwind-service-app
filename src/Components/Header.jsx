@@ -30,7 +30,6 @@ export default function Header(){
                     </li>
                     <li>
                         <Link to="/web-agency/services">Services</Link>
-                    
                     </li>
                     <li>
                         <Link to="/web-agency/projects">Successful Projects</Link>
@@ -46,13 +45,13 @@ export default function Header(){
                         <Link to="/web-agency">Home</Link>
                     </li>
                     <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/web-agency/company">Company</Link>
-                    </li>
-                    <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/web-agency/resource">Resource</Link>
-                    </li>
-                    <li className='p-3 hover:bg-slate-900'>
                         <Link to="/web-agency/about">About</Link>
+                    </li>
+                    <li className='p-3 hover:bg-slate-900'>
+                        <Link to="/web-agency/services">Services</Link>
+                    </li>
+                    <li className='p-3 hover:bg-slate-900'>
+                        <Link to="/web-agency/projects">Successful Projects</Link>
                     </li>
                     <li className='p-3 hover:bg-slate-900'>
                         <Link to="/web-agency/contact-us">Contact Us</Link>
