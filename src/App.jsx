@@ -1,17 +1,27 @@
+import React from 'react';
 import Header from "./Components/Header";
-import Banner from "./Components/Banner";
-import Experts from "./Components/Experts";
-import NewsLetter from "./Components/NewsLetter";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home/Main";
+import About from "./Components/About/Main";
+import Footer from "./Components/Footer";
+import Services from "./Components/Services/Main";
+import Projects from "./Components/Projects/Main";
+import Contact from "./Components/Contact/Main";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Banner />
-      <Experts />
-      <NewsLetter />
-
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Header />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact-us" element={<Contact />} />
+        </Route>
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
