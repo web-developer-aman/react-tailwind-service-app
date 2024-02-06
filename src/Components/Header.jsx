@@ -12,7 +12,7 @@ export default function Header(){
         <div className='bg-[#2699fb] p-4 sticky top-0 z-50'>
             <div className='max-w-[1240px] items-center flex justify-between mx-auto'>
                 <div className='text-3xl font-bold'>
-                    <Link to='/'>SoftaWeb</Link>
+                    <Link to='/web-agency'>SoftaWeb</Link>
                 </div>
                 {
                     toggle ? 
@@ -23,39 +23,39 @@ export default function Header(){
 
                 <ul className='hidden md:flex text-white gap-10'>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/web-agency">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/web-agency/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/services">Services</Link>
+                        <Link to="/web-agency/services">Services</Link>
                     
                     </li>
                     <li>
-                        <Link to="/projects">Successful Projects</Link>
+                        <Link to="/web-agency/projects">Successful Projects</Link>
                     </li>
                     <li>
-                        <Link to="/contact-us">Contact Us</Link>
+                        <Link to="/web-agency/contact-us">Contact Us</Link>
                     </li>
                 </ul>
                 <ul className={`w-full h-screen block md:hidden text-white fixed top-[68px] bg-black duration-300
                     ${toggle ? "left-0" : "left-[-100%]"}
                 `}>
                     <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/">Home</Link>
+                        <Link to="/web-agency">Home</Link>
                     </li>
                     <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/company">Company</Link>
+                        <Link to="/web-agency/company">Company</Link>
                     </li>
                     <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/resource">Resource</Link>
+                        <Link to="/web-agency/resource">Resource</Link>
                     </li>
                     <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/about">About</Link>
+                        <Link to="/web-agency/about">About</Link>
                     </li>
                     <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/contact-us">Contact Us</Link>
+                        <Link to="/web-agency/contact-us">Contact Us</Link>
                     </li>
                 </ul>
             </div>
