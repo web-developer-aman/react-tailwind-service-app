@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/web-agency" element={<Header />}>
+        <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />

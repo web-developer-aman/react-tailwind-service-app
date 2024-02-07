@@ -19,16 +19,16 @@ export default function Footer(){
                     <h3 className='text-2xl md:text-[20px] font-bold mb-2 md:mb-5 leading-tight'>Solutions</h3> 
                     <ul>
                         <li>
-                            <Link to='/web-agency/wordpress-website' className='text-[15px] text-white tracking-wider'>WordPress Website</Link>
+                            <Link to='/wordpress-website' className='text-[15px] text-white tracking-wider'>WordPress Website</Link>
                         </li>
                         <li>
-                            <Link to='/web-agency/laravel-web-app' className='text-[15px] text-white tracking-wider'>Laravel Web App</Link>
+                            <Link to='/laravel-web-app' className='text-[15px] text-white tracking-wider'>Laravel Web App</Link>
                         </li>
                         <li>
-                            <Link to='/web-agency/react-app' className='text-[15px] text-white tracking-wider'>React App</Link>
+                            <Link to='/react-app' className='text-[15px] text-white tracking-wider'>React App</Link>
                         </li>
                         <li>
-                            <Link to='/web-agency/website-maintenance' className='text-[15px] text-white tracking-wider'>Website Maintenance</Link>
+                            <Link to='/website-maintenance' className='text-[15px] text-white tracking-wider'>Website Maintenance</Link>
                         </li>
                     </ul> 
                 </div> 
@@ -36,16 +36,16 @@ export default function Footer(){
                     <h3 className='text-2xl md:text-[20px] font-bold mb-2 md:mb-5 leading-tight'>Company</h3> 
                     <ul>
                         <li>
-                            <Link to='/web-agency' className='text-[15px] text-white tracking-wider'>Home</Link>
+                            <Link to='/' className='text-[15px] text-white tracking-wider'>Home</Link>
                         </li>
                         <li>
-                            <Link to='/web-agency/about' className='text-[15px] text-white tracking-wider'>About</Link>
+                            <Link to='/about' className='text-[15px] text-white tracking-wider'>About</Link>
                         </li>
                         <li>
-                            <Link to='/web-agency/services' className='text-[15px] text-white tracking-wider'>Services</Link>
+                            <Link to='/services' className='text-[15px] text-white tracking-wider'>Services</Link>
                         </li>
                         <li>
-                        <Link to='/web-agency/contact-us' className='text-[15px] text-white tracking-wider'>Contact Us</Link>
+                        <Link to='/contact-us' className='text-[15px] text-white tracking-wider'>Contact Us</Link>
                         </li>
                     </ul> 
                 </div>
