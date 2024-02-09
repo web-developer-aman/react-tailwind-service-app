@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/web-agency/static/css/main.423806fb.css",
-    "main.js": "/web-agency/static/js/main.ccab2360.js",
+    "main.css": "/web-agency/static/css/main.65348993.css",
+    "main.js": "/web-agency/static/js/main.ba91b9f5.js",
+    "static/media/tasa.png": "/web-agency/static/media/tasa.852498a51ff12ae98ea3.png",
+    "static/media/paperpro.png": "/web-agency/static/media/paperpro.a6e59fd3e9df5cb170cf.png",
     "static/media/programming.png": "/web-agency/static/media/programming.fa7d44cca7a46ed0a846.png",
+    "static/media/booking_landingpage.png": "/web-agency/static/media/booking_landingpage.fc056a4e68702fd62316.png",
     "index.html": "/web-agency/index.html",
-    "main.423806fb.css.map": "/web-agency/static/css/main.423806fb.css.map",
-    "main.ccab2360.js.map": "/web-agency/static/js/main.ccab2360.js.map"
+    "main.65348993.css.map": "/web-agency/static/css/main.65348993.css.map",
+    "main.ba91b9f5.js.map": "/web-agency/static/js/main.ba91b9f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.423806fb.css",
-    "static/js/main.ccab2360.js"
+    "static/css/main.65348993.css",
+    "static/js/main.ba91b9f5.js"
   ]
 }
