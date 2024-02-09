@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function NewsLetter(){
     return (
-        <div className='py-[30px] md:py-[60px] bg-[#2699fb]'>
+        <div className='py-[30px] md:py-[80px] bg-[#2699fb]'>
             <div className='max-w-[1240px] mx-auto md:grid grid-cols-2 px-3'>
                 <div>
                     <h2 className='text-3xl md:text-[40px] font-bold mb-3'>Suscipit repudiane culpa illo</h2>

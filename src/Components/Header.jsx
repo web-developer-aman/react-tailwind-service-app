@@ -41,21 +41,21 @@ export default function Header(){
                 <ul className={`w-full h-screen block md:hidden text-white fixed top-[68px] bg-black duration-300
                     ${toggle ? "left-0" : "left-[-100%]"}
                 `}>
-                    <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/services">Services</Link>
-                    </li>
-                    <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/projects">Successful Projects</Link>
-                    </li>
-                    <li className='p-3 hover:bg-slate-900'>
-                        <Link to="/contact-us">Contact Us</Link>
-                    </li>
+                    <Link to="/">
+                        <li className='p-3 hover:bg-slate-900' onClick={() => setToggle(!toggle)}> Home</li>
+                    </Link>
+                    <Link to="/about">
+                        <li className='p-3 hover:bg-slate-900' onClick={() => setToggle(!toggle)}>About</li>
+                    </Link>
+                    <Link to="/services">
+                        <li className='p-3 hover:bg-slate-900' onClick={() => setToggle(!toggle)}>Services</li>
+                    </Link>
+                    <Link to="/projects">
+                        <li className='p-3 hover:bg-slate-900' onClick={() => setToggle(!toggle)}>Successful Projects</li>
+                    </Link>
+                    <Link to="/contact-us">
+                        <li className='p-3 hover:bg-slate-900' onClick={() => setToggle(!toggle)}>Contact Us</li>
+                    </Link>
                 </ul>
             </div>
         </div>
