@@ -3,7 +3,7 @@ import delta from '../../assets/images/programming.png';
 
 export default function Experts(){
     return (
-        <div className="md:grid grid-cols-2 gap-10 md:max-w-[1000px] px-3 mx-auto my-2 py-[30px] md:py-[60px]">
+        <div className="md:grid grid-cols-2 gap-10 md:max-w-[1000px] px-3 mx-auto my-2 py-[30px] md:pt-[60px]">
             <div className="">
                 <img src={delta} className="md:w-[80%] object-cover" alt=""/>
             </div>
