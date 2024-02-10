@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/web-agency/static/css/main.0354f2bc.css",
-    "main.js": "/web-agency/static/js/main.75655504.js",
+    "main.css": "/web-agency/static/css/main.7562a3d6.css",
+    "main.js": "/web-agency/static/js/main.0482dafb.js",
     "static/media/tasa.png": "/web-agency/static/media/tasa.852498a51ff12ae98ea3.png",
     "static/media/paperpro.png": "/web-agency/static/media/paperpro.a6e59fd3e9df5cb170cf.png",
     "static/media/programming.png": "/web-agency/static/media/programming.fa7d44cca7a46ed0a846.png",
     "static/media/booking_landingpage.png": "/web-agency/static/media/booking_landingpage.fc056a4e68702fd62316.png",
+    "static/media/values.png": "/web-agency/static/media/values.17e3f480a24e4f853a93.png",
+    "static/media/mission.png": "/web-agency/static/media/mission.bc2af4616c718b60ea1a.png",
+    "static/media/member3.jpg": "/web-agency/static/media/member3.9ce9867700cd3cb3c569.jpg",
+    "static/media/member2.jpg": "/web-agency/static/media/member2.6e349ea0eb7ee4223747.jpg",
+    "static/media/member1.jpg": "/web-agency/static/media/member1.f3e30c1742f29e738753.jpg",
     "index.html": "/web-agency/index.html",
-    "main.0354f2bc.css.map": "/web-agency/static/css/main.0354f2bc.css.map",
-    "main.75655504.js.map": "/web-agency/static/js/main.75655504.js.map"
+    "main.7562a3d6.css.map": "/web-agency/static/css/main.7562a3d6.css.map",
+    "main.0482dafb.js.map": "/web-agency/static/js/main.0482dafb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0354f2bc.css",
-    "static/js/main.75655504.js"
+    "static/css/main.7562a3d6.css",
+    "static/js/main.0482dafb.js"
   ]
 }
