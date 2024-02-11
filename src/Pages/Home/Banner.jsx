@@ -1,5 +1,6 @@
 import React from "react";
 import {ReactTyped } from "react-typed";
+import Button from "../../Components/Button";
 
 
 export default function Banner(){
@@ -18,10 +19,7 @@ export default function Banner(){
                 loop={true}
                 />
             </div>
-            <button className="relative bg-black text-white hover:text-black px-[50px] py-4 font-bold mt-[25px] tracking-widest group duration-300 rounded">
-                <span className="absolute w-0 group-hover:w-full transition-all ease-out duration-300 right-0 top-0 h-full bg-white rounded"></span>
-                <span className="relative">Get Started</span>
-            </button>
+            <Button btnText='Get Started' hoverBgColor='white' hoverTxtColor='black' />
         </div>
     )
 }

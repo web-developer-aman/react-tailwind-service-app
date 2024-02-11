@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from "./Components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Components/Home/Main";
-import About from "./Components/About/Main";
+import Home from "./Pages/Home/Main";
+import About from "./Pages/About/Main";
 import Footer from "./Components/Footer";
-import Services from "./Components/Services/Main";
-import Projects from "./Components/Projects/Main";
-import Contact from "./Components/Contact/Main";
+import Services from "./Pages/Services/Main";
+import Projects from "./Pages/Projects/Main";
+import Contact from "./Pages/Contact/Main";
 
 function App() {
   return (
